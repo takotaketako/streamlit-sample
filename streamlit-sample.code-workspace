@@ -1,0 +1,24 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"terminal.integrated.env.windows": {
+			"PATH": "${env:PATH};${workspaceFolder}/bin",
+		},
+		"autoDocstring.docstringFormat": "google",
+		"editor.formatOnSave": true,
+		"editor.codeActionsOnSave": {
+			"source.organizeImports": "never"
+		},
+		"[python]": {
+			"editor.defaultFormatter": "ms-python.black-formatter"
+		},
+		"black-formatter.args": [
+			"--line-length",
+			"120"
+		],
+	}
+}
