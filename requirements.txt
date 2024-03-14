@@ -2,3 +2,4 @@ streamlit
 plotly
 pandas
 dash
+bokeh==2.4.3
